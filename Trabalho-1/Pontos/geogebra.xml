@@ -1,0 +1,2530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.903.0" app="graphing" platform="w" id="7ef6c748-7dd2-46c7-8673-65b96417eb31"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="847" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.19947916666666668" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="100,100,700,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1521" window="100,100,600,400" />
+		<view id="2" visible="true" inframe="false" stylebar="false" location="3" size="383" tab="TOOLS" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 77 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="1"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1521" height="847"/>
+	<coordSystem xZero="-654.0707942374146" yZero="2102.7633298189944" scale="73.14404438716141" yscale="73.14404438716"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="28" g="28" b="31"/>
+	<gridColor r="180" g="179" b="186"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<algebraView>
+	<mode val="3"/>
+</algebraView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="13"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="0" max="0" step="0"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Corpo todo" author="" date="">
+<element type="point" label="A">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.03665007780716" y="4.387201584752024" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.337135001832138" y="4.300502589817024" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.881965278423396" y="4.972419800563274" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.535169298683401" y="3.8019833689407747" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.074076458779626" y="4.864046056894524" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.838875698475249" y="9.007470672639036" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.435971462922744" y="8.734475112301329" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.81278800849801" y="9.764013681978948" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.315334453558286" y="10.086926582393637" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.258281379633475" y="14.353738585085836" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.262351489417181" y="14.972852745313856" z="1"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.348541137102812" y="15.67350114788425" z="1"/>
+</element>
+<element type="point" label="C_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.11297999596173" y="15.470145416820834" z="1"/>
+</element>
+<element type="point" label="A_{2}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.46154216734762" y="16.12840685836374" z="1"/>
+</element>
+<element type="point" label="B_{2}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.5803848673034" y="16.663199008164725" z="1"/>
+</element>
+<element type="point" label="C_{2}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.509079247329932" y="17.186106887970134" z="1"/>
+</element>
+<element type="point" label="D_{2}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.378352277378578" y="17.554519257833036" z="1"/>
+</element>
+<element type="point" label="E_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.201475082953541" y="17.865169363484192" z="1"/>
+</element>
+<element type="point" label="F_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.00647035677998" y="18.303074035229663" z="1"/>
+</element>
+<element type="point" label="G_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.905590340066734" y="18.637895423934097" z="1"/>
+</element>
+<element type="point" label="H_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.905590340066734" y="19.069476703265494" z="1"/>
+</element>
+<element type="point" label="I_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.941933446868589" y="19.416479586488045" z="1"/>
+</element>
+<element type="point" label="J_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.115416962583458" y="16.138605522229817" z="1"/>
+</element>
+<element type="point" label="K_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="79" y="-13"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.980578667753012" y="16.637507213102438" z="1"/>
+</element>
+<element type="point" label="L_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-16" y="78"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.088449303617365" y="17.109441245008966" z="1"/>
+</element>
+<element type="point" label="M_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.252099587773804" y="17.531901174833784" z="1"/>
+</element>
+<element type="point" label="N_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.395357741678382" y="17.78825787129461" z="1"/>
+</element>
+<element type="point" label="O_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.538615895582964" y="18.059694373429608" z="1"/>
+</element>
+<element type="point" label="P_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.591395215442546" y="18.391450098261274" z="1"/>
+</element>
+<element type="point" label="Q_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.64417453530212" y="18.708126017418778" z="1"/>
+</element>
+<element type="point" label="R_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.606475021116708" y="19.0625014507617" z="1"/>
+</element>
+<element type="point" label="S_{1}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.526830360118012" y="19.337842450552976" z="1"/>
+</element>
+<element type="point" label="T_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.414393812980032" y="14.948917237219568" z="1"/>
+</element>
+<element type="point" label="A_{5}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.609046134397259" y="19.905510668631024" z="1"/>
+</element>
+<element type="point" label="U_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.294176226293079" y="19.909775842776114" z="1"/>
+</element>
+<element type="point" label="V_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.982761430021906" y="19.82257969982018" z="1"/>
+</element>
+<element type="point" label="W_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.63397685819819" y="19.7478401487151" z="1"/>
+</element>
+<element type="point" label="Z_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.297648878225322" y="19.735383556864257" z="1"/>
+</element>
+<element type="point" label="I_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.035262193662534" y="19.74600950321104" z="1"/>
+</element>
+<element type="point" label="J_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.710857712509712" y="19.881178037024718" z="1"/>
+</element>
+<element type="point" label="K_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.467554351645095" y="20.002829717457026" z="1"/>
+</element>
+<element type="point" label="L_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.11969957063528" y="20.093652210357078" z="1"/>
+</element>
+<element type="point" label="M_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.850023799863559" y="20.219756684641226" z="1"/>
+</element>
+<element type="point" label="N_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.125836087476423" y="20.052321285099993" z="1"/>
+</element>
+<element type="point" label="O_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.876840125191371" y="20.00177832644055" z="1"/>
+</element>
+<element type="point" label="P_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.615568348082572" y="19.974367654274594" z="1"/>
+</element>
+<element type="point" label="Q_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="14" y="-10"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.372577702760723" y="19.999945616940053" z="1"/>
+</element>
+<element type="point" label="R_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.86741294011793" y="20.019129088939145" z="1"/>
+</element>
+<element type="point" label="S_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.646177816875899" y="20.0817802034706" z="1"/>
+</element>
+<element type="point" label="T_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.399495977783194" y="20.149802154652143" z="1"/>
+</element>
+<element type="point" label="E_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.811933010631094" y="21.506164796473946" z="1"/>
+</element>
+<element type="point" label="F_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.73355124595179" y="21.410610302570944" z="1"/>
+</element>
+<element type="point" label="G_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.5262892616018" y="21.42926071019683" z="1"/>
+</element>
+<element type="point" label="H_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.306563300810035" y="21.269959388622794" z="1"/>
+</element>
+<element type="point" label="Z_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.0593715949193" y="21.099671769009177" z="1"/>
+</element>
+<element type="point" label="A_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.782136169579127" y="21.131486365471844" z="1"/>
+</element>
+<element type="point" label="P_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.465195559249912" y="21.224704192039262" z="1"/>
+</element>
+<element type="point" label="Q_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.092324252980246" y="21.21538240938252" z="1"/>
+</element>
+<element type="point" label="R_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.747418294680806" y="21.159451713442067" z="1"/>
+</element>
+<element type="point" label="S_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.449121249665072" y="21.084877452188138" z="1"/>
+</element>
+<element type="point" label="T_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.196579705851637" y="20.93772564479079" z="1"/>
+</element>
+<element type="point" label="U_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.898317897301535" y="20.925033652937593" z="1"/>
+</element>
+<element type="point" label="V_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.34454016809932" y="20.125369866404235" z="1"/>
+</element>
+<element type="point" label="W_2">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.116798076106145" y="19.993551126273687" z="1"/>
+</element>
+<element type="point" label="B_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.612545705310987" y="20.186589514132585" z="1"/>
+</element>
+<element type="point" label="C_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.181280159333527" y="20.314676328591887" z="1"/>
+</element>
+<element type="point" label="D_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.727690351141843" y="20.16448870818455" z="1"/>
+</element>
+<element type="point" label="E_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.428652540185926" y="20.332459131591" z="1"/>
+</element>
+<element type="point" label="F_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-13" y="-34"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.435512077989038" y="20.739317702104742" z="1"/>
+</element>
+<element type="point" label="G_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.016692773499509" y="21.129947349906857" z="1"/>
+</element>
+<element type="point" label="H_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="4.73721790352726" y="20.866351733910307" z="1"/>
+</element>
+<element type="point" label="I_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.172309462461329" y="20.698031641767933" z="1"/>
+</element>
+<element type="point" label="J_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.47688461029087" y="20.765079772527784" z="1"/>
+</element>
+<element type="point" label="K_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.7109886395011715" y="20.796593776459943" z="1"/>
+</element>
+<element type="point" label="L_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.936088667587998" y="20.846115782639046" z="1"/>
+</element>
+<element type="point" label="M_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.174694697360035" y="20.88663378769467" z="1"/>
+</element>
+<element type="point" label="N_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.413300727132072" y="20.90464178994162" z="1"/>
+</element>
+<element type="point" label="O_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.629396754095426" y="20.913645791065093" z="1"/>
+</element>
+<element type="point" label="Z_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.688593430462655" y="20.936818390151387" z="1"/>
+</element>
+<element type="point" label="B_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.480274860263633" y="20.91814779162683" z="1"/>
+</element>
+<element type="point" label="D_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.23716682992986" y="20.913645791065093" z="1"/>
+</element>
+<element type="point" label="E_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="7.043580805775188" y="20.922649792188565" z="1"/>
+</element>
+<element type="point" label="F_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.822982778250098" y="20.922649792188565" z="1"/>
+</element>
+<element type="point" label="U_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.083383761078057" y="21.385180068407458" z="1"/>
+</element>
+<element type="point" label="V_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.40775893954411" y="21.277055008918772" z="1"/>
+</element>
+<element type="point" label="W_3">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.688559516174948" y="21.07585719653438" z="1"/>
+</element>
+<element type="point" label="A_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.01256954434629" y="21.007127796619244" z="1"/>
+</element>
+<element type="point" label="C_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.463524379621962" y="21.047929670846507" z="1"/>
+</element>
+<element type="point" label="G_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.77900962133524" y="21.131055998483077" z="1"/>
+</element>
+<element type="point" label="H_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.13081104303024" y="21.217971643843015" z="1"/>
+</element>
+<element type="point" label="I_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.710248678763175" y="21.271776567161076" z="1"/>
+</element>
+<element type="point" label="J_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.02893937841629" y="21.230388164608726" z="1"/>
+</element>
+<element type="point" label="K_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.347630078069404" y="21.160027880269723" z="1"/>
+</element>
+<element type="point" label="L_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.62428674112137" y="21.066038710832217" z="1"/>
+</element>
+<element type="point" label="M_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.933222647846357" y="20.93469192574984" z="1"/>
+</element>
+<element type="point" label="N_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.22131195433412" y="20.962368368451394" z="1"/>
+</element>
+<element type="point" label="P_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.302124866659053" y="20.93141348689541" z="1"/>
+</element>
+<element type="point" label="Q_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.66244427393229" y="20.679362133882528" z="1"/>
+</element>
+<element type="point" label="S_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.870835868110387" y="19.815907457731328" z="1"/>
+</element>
+<element type="point" label="T_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.186560979128945" y="20.027153354877058" z="1"/>
+</element>
+<element type="point" label="U_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.769357391433248" y="19.732001561733348" z="1"/>
+</element>
+<element type="point" label="V_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.694633486514629" y="19.58097094893698" z="1"/>
+</element>
+<element type="point" label="C_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="42" y="-7"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.63056737534467" y="20.067433868570824" z="1"/>
+</element>
+<element type="point" label="E_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.967872563310156" y="20.067433868570824" z="1"/>
+</element>
+<element type="point" label="F_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.353022681234776" y="19.919575591557695" z="1"/>
+</element>
+<element type="point" label="G_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.431929378755125" y="19.71103297000932" z="1"/>
+</element>
+<element type="point" label="H_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.829717906659045" y="19.720977683206918" z="1"/>
+</element>
+<element type="point" label="I_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.104068419632178" y="19.795835598756803" z="1"/>
+</element>
+<element type="point" label="J_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.387090475613903" y="19.854104845576572" z="1"/>
+</element>
+<element type="point" label="K_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.762565131113945" y="19.934039024541647" z="1"/>
+</element>
+<element type="point" label="W_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.570903876258857" y="19.868309428022613" z="1"/>
+</element>
+<element type="point" label="Z_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.77596853039917" y="19.82345153492942" z="1"/>
+</element>
+<element type="point" label="M_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.070748970725866" y="19.765777100952462" z="1"/>
+</element>
+<element type="point" label="D_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="18.403974499875766" y="21.255221206140135" z="1"/>
+</element>
+<element type="point" label="L_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.850642614284038" y="20.970777926868585" z="1"/>
+</element>
+<element type="point" label="N_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.117679022562744" y="20.913040325078597" z="1"/>
+</element>
+<element type="point" label="O_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.3774982306177" y="20.8986059246311" z="1"/>
+</element>
+<element type="point" label="P_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="-23"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.66618623956765" y="20.8841715241836" z="1"/>
+</element>
+<element type="point" label="Q_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.485819050305434" y="20.98404927795724" z="1"/>
+</element>
+<element type="point" label="R_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.729688987457937" y="20.992297542081616" z="1"/>
+</element>
+<element type="point" label="S_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.984479968939876" y="20.971040732253734" z="1"/>
+</element>
+<element type="point" label="O_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.50144547584156" y="20.8020278848088" z="1"/>
+</element>
+<element type="point" label="R_4">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="23.038108136143997" y="21.131692090423158" z="1"/>
+</element>
+<element type="point" label="T_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="23.39077217005703" y="20.82502771310748" z="1"/>
+</element>
+<element type="point" label="U_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="23.620770453043786" y="20.55669638295626" z="1"/>
+</element>
+<element type="point" label="V_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="31" y="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="23.628437062476678" y="20.181032520744544" z="1"/>
+</element>
+<element type="point" label="W_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="23.344772513459677" y="19.943367628324893" z="1"/>
+</element>
+<element type="point" label="Z_5">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.946108822949295" y="19.935701018891997" z="1"/>
+</element>
+<element type="point" label="A_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.64711105506651" y="20.127366254714303" z="1"/>
+</element>
+<element type="point" label="E_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="22.354237170413974" y="20.01055858582467" z="1"/>
+</element>
+<element type="point" label="F_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.99898975864116" y="19.938059114034303" z="1"/>
+</element>
+<element type="point" label="G_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.687242029942567" y="19.916309272497188" z="1"/>
+</element>
+<element type="point" label="H_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.353744459706864" y="19.938059114034303" z="1"/>
+</element>
+<element type="point" label="I_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="21.09274636126153" y="19.974308849929486" z="1"/>
+</element>
+<element type="point" label="J_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.570750164370864" y="20.090308004794082" z="1"/>
+</element>
+<element type="point" label="K_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.1285033864496" y="20.068558163256967" z="1"/>
+</element>
+<element type="point" label="B_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.766498738204863" y="20.061308216077933" z="1"/>
+</element>
+<element type="point" label="C_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.35790604519387" y="20.116235977608547" z="1"/>
+</element>
+<element type="point" label="T_{6}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.374601930161361" y="21.742717811567708" z="1"/>
+</element>
+<element type="point" label="U_{6}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.141765316573665" y="21.9256608651009" z="1"/>
+</element>
+<element type="point" label="A_{7}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.234453679125314" y="21.849208004517173" z="1"/>
+</element>
+<element type="point" label="B_{5}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.649306779565467" y="22.083227702201363" z="1"/>
+</element>
+<element type="point" label="D_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.096071656962556" y="22.242786586986043" z="1"/>
+</element>
+<element type="point" label="C_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.8511217342446" y="22.06195318423007" z="1"/>
+</element>
+<element type="point" label="D_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.489454928732671" y="22.136413997129587" z="1"/>
+</element>
+<element type="point" label="E_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.40455216754626" y="22.31724739988556" z="1"/>
+</element>
+<element type="point" label="F_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.564111052330935" y="22.657639687426197" z="1"/>
+</element>
+<element type="point" label="G_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.569610649946311" y="23.119884257299297" z="1"/>
+</element>
+<element type="point" label="H_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.117150864235098" y="22.402345471770715" z="1"/>
+</element>
+<element type="point" label="L_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.077224072434708" y="22.70110275105251" z="1"/>
+</element>
+<element type="point" label="M_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.062764789890192" y="23.072417821593596" z="1"/>
+</element>
+<element type="point" label="N_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.504640393746898" y="23.48404214893074" z="1"/>
+</element>
+<element type="point" label="O_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.358988055948146" y="23.750516589167653" z="1"/>
+</element>
+<element type="point" label="P_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.196914329573888" y="24.026995298864918" z="1"/>
+</element>
+<element type="point" label="Q_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.068104362927876" y="24.29394025995194" z="1"/>
+</element>
+<element type="point" label="R_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-49" y="11"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.082743830299368" y="24.652076586694257" z="1"/>
+</element>
+<element type="point" label="S_9">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.03542896936518" y="23.440305332484506" z="1"/>
+</element>
+<element type="point" label="A_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.225751321411233" y="23.734540869559353" z="1"/>
+</element>
+<element type="point" label="B_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.349403231905015" y="24.031332218826044" z="1"/>
+</element>
+<element type="point" label="C_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.4492363393403" y="24.62445832770628" z="1"/>
+</element>
+<element type="point" label="E_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.253040139006545" y="24.656598527275115" z="1"/>
+</element>
+<element type="point" label="F_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-75" y="-26"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.273184318455892" y="24.646688958531207" z="1"/>
+</element>
+<element type="point" label="D_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.437491267877325" y="24.360194219789342" z="1"/>
+</element>
+<element type="point" label="G_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.262177191569622" y="24.882452727194433" z="1"/>
+</element>
+<element type="point" label="H_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.262177191569622" y="25.15849674931804" z="1"/>
+</element>
+<element type="point" label="I_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.312853215249518" y="25.472018891610574" z="1"/>
+</element>
+<element type="point" label="J_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.45457151001941" y="25.660394971360972" z="1"/>
+</element>
+<element type="point" label="K_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.781273458425336" y="25.79720357702302" z="1"/>
+</element>
+<element type="point" label="L_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.158109715695643" y="25.88662234993462" z="1"/>
+</element>
+<element type="point" label="M_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.515784807342037" y="25.867461184310706" z="1"/>
+</element>
+<element type="point" label="N_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.841524622948537" y="25.803590632230993" z="1"/>
+</element>
+<element type="point" label="P_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.09135537854404" y="25.692608307213" z="1"/>
+</element>
+<element type="point" label="Q_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.202850316802252" y="25.442905741809035" z="1"/>
+</element>
+<element type="point" label="R_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.202850316802252" y="25.200321601154954" z="1"/>
+</element>
+<element type="point" label="S_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.244675168639162" y="24.966102430868254" z="1"/>
+</element>
+<element type="point" label="O_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.694357406342537" y="23.36773541119156" z="1"/>
+</element>
+<element type="point" label="T_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.988619059376273" y="23.23461704434296" z="1"/>
+</element>
+<element type="point" label="U_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="-2"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.258948827717207" y="23.147226679545447" z="1"/>
+</element>
+<element type="point" label="V_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.525802471461358" y="23.147226679545447" z="1"/>
+</element>
+<element type="point" label="W_{10}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.815529284669292" y="23.269216916685636" z="1"/>
+</element>
+<element type="point" label="A_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.439352957311073" y="25.125101481537456" z="1"/>
+</element>
+<element type="point" label="B_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.756508621537561" y="25.312712548646772" z="1"/>
+</element>
+<element type="point" label="C_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.072769718602224" y="25.413018191215258" z="1"/>
+</element>
+<element type="point" label="E_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.461457276667248" y="25.40582027347331" z="1"/>
+</element>
+<element type="point" label="G_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.037290696022842" y="25.24746608315052" z="1"/>
+</element>
+<element type="point" label="D_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.792561492796715" y="25.348236931537755" z="1"/>
+</element>
+<element type="point" label="F_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.257906045193872" y="24.416235977608544" z="1"/>
+</element>
+<element type="point" label="H_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.257906045193872" y="24.416235977608544" z="1"/>
+</element>
+<element type="point" label="I_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.276197190531246" y="24.179668456745702" z="1"/>
+</element>
+<element type="point" label="J_{11}">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.257906045193872" y="24.216235977608548" z="1"/>
+</element>
+<element type="point" label="D_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.183439685710454" y="10.781358718754197" z="1"/>
+</element>
+<element type="point" label="L_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.987325215861791" y="11.582159470636247" z="1"/>
+</element>
+<element type="point" label="M_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.856582235962684" y="12.301245860081353" z="1"/>
+</element>
+<element type="point" label="N_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.807553618500519" y="13.069360866988628" z="1"/>
+</element>
+<element type="point" label="O_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="3" y="-12"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.840239363475295" y="13.755761511458958" z="1"/>
+</element>
+<element type="point" label="P_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10.987325215861791" y="14.327762048517565" z="1"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.917138768406963" y="10.416205931409909" z="1"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.008445683327295" y="11.251012010681539" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.158832058448247" y="11.926247019770308" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.317756676629106" y="12.614221949196985" z="1"/>
+</element>
+<element type="point" label="R">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.349746028445889" y="13.437947758479176" z="1"/>
+</element>
+<element type="point" label="S">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.553882489169634" y="5.622662262575773" z="1"/>
+</element>
+<element type="point" label="T">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.745993669525864" y="5.384240026504523" z="1"/>
+</element>
+<element type="point" label="U">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.811017915727113" y="6.2729047245882725" z="1"/>
+</element>
+<element type="point" label="V">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.832692664460863" y="7.139894673938271" z="1"/>
+</element>
+<element type="point" label="W">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.832692664460863" y="8.158607864424521" z="1"/>
+</element>
+<element type="point" label="Z">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.532207740435885" y="6.446302714458272" z="1"/>
+</element>
+<element type="point" label="A_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.467183494234636" y="7.313292663808271" z="1"/>
+</element>
+<element type="point" label="D_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.467183494234636" y="8.13693311569077" z="1"/>
+</element>
+<element type="point" label="Q_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.06107763623528" y="9.543456527784818" z="1"/>
+</element>
+<element type="point" label="R_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.128427482838674" y="9.078062515411283" z="1"/>
+</element>
+<element type="point" label="B_1">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.448472185185548" y="14.917387194669644" z="1"/>
+</element>
+<element type="point" label="S_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.709061984089484" y="14.377372151725018" z="1"/>
+</element>
+<element type="point" label="V_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.856554835151075" y="13.71088196868459" z="1"/>
+</element>
+<element type="point" label="W_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.905784817811343" y="12.989383269354107" z="1"/>
+</element>
+<element type="point" label="Z_6">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.773652000004605" y="12.332937824438952" z="1"/>
+</element>
+<element type="point" label="B_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.616779321989306" y="11.634141349643514" z="1"/>
+</element>
+<element type="point" label="C_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.502690101614542" y="11.12073985795707" z="1"/>
+</element>
+<element type="point" label="D_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.37433972869293" y="10.59307721372378" z="1"/>
+</element>
+<element type="point" label="E_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.274511660865013" y="9.96558650166257" z="1"/>
+</element>
+<element type="point" label="F_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.551806278181232" y="9.575101940461353" z="1"/>
+</element>
+<element type="point" label="G_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.579822345378483" y="9.01478059651632" z="1"/>
+</element>
+<element type="point" label="H_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.271645606208718" y="8.58053155495892" z="1"/>
+</element>
+<element type="point" label="I_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.229621505412842" y="7.950170043020758" z="1"/>
+</element>
+<element type="point" label="J_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.235621284905706" y="7.249002539631311" z="1"/>
+</element>
+<element type="point" label="K_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.259798262111556" y="6.668755086690926" z="1"/>
+</element>
+<element type="point" label="L_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="3" y="-6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.271645606208718" y="6.115117641600776" z="1"/>
+</element>
+<element type="point" label="M_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.271645606208718" y="5.540788264057117" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.944911180347049" y="4.999867558646199" z="1"/>
+</element>
+<element type="point" label="N_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.831374451637558" y="4.416099062918295" z="1"/>
+</element>
+<element type="point" label="O_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.27424538068877" y="3.877120255855275" z="1"/>
+</element>
+<element type="point" label="P_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="15.56032988201998" y="4.375200836321881" z="1"/>
+</element>
+<element type="point" label="Q_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.829811697335634" y="4.873281416788486" z="1"/>
+</element>
+<element type="point" label="R_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.281923058822375" y="5.354759311239538" z="1"/>
+</element>
+<element type="point" label="S_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.234111208188002" y="6.227980802022964" z="1"/>
+</element>
+<element type="point" label="T_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.207614994535195" y="6.986302199481186" z="1"/>
+</element>
+<element type="point" label="U_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.191327282827977" y="7.967860433330677" z="1"/>
+</element>
+<element type="point" label="V_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.109751488494751" y="8.832716138519121" z="1"/>
+</element>
+<element type="point" label="W_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.022538250680633" y="9.641961080263817" z="1"/>
+</element>
+<element type="point" label="Z_7">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.017328227849273" y="10.350044539116922" z="1"/>
+</element>
+<element type="point" label="A_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.925028318713107" y="11.203583891849469" z="1"/>
+</element>
+<element type="point" label="B_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.77360494001827" y="11.926450885136125" z="1"/>
+</element>
+<element type="point" label="C_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.653644870705332" y="12.614221949196985" z="1"/>
+</element>
+<element type="point" label="E_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.590020300494894" y="13.436578039174837" z="1"/>
+</element>
+<element type="point" label="F_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.699749038901878" y="14.33570990114581" z="1"/>
+</element>
+<element type="point" label="G_8">
+	<show object="true" label="true"/>
+	<objColor r="21" g="101" b="192" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13.580263273410742" y="14.948917237219568" z="1"/>
+</element>
+</construction>
+</geogebra>
