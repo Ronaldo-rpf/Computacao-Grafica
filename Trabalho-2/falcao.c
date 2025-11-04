@@ -1,7 +1,9 @@
 #include <GL/glut.h>
 #include <math.h>
 
-GLfloat dx = 0, dy = 0;
+GLfloat dxTranslate = 0.0, dyTranslate = 0.0;
+GLfloat dxScale = 1.0, dyScale = 1.0;
+GLfloat pontoPivoEscalaX = 13.4876819152305f, pontoPivoEscalaY = 17.0491227834974f;
 
 typedef struct{
     unsigned char R;
@@ -1866,38 +1868,44 @@ void asaDir(){
 
 void desenhaHeroi(){
     glPushMatrix();
-        glTranslatef(dx, dy, 0.0);
-        //corpo
-        desenhaPernaEsq(); 
-        desenhaPernaDir();
+        glTranslatef(dxTranslate, dyTranslate, 0.0);
+        glPushMatrix();
+            glTranslatef(pontoPivoEscalaX, pontoPivoEscalaY, 0.0);
+            glScalef(dxScale, dyScale, 1.0);
+            glTranslatef(-pontoPivoEscalaX, -pontoPivoEscalaY, 0.0);
 
-        desenhaBarriga();
-        desenhaPeito();
+            //corpo
+            desenhaPernaEsq(); 
+            desenhaPernaDir();
 
-        desenhaBracoDir();
-        desenhaAntebracoDir();
-        desenhaBracoEsq();
-        desenhaAntebracoEsq();
+            desenhaBarriga();
+            desenhaPeito();
 
-        desenhaPescoco();
-        desenhaCabeca();
-        desenhaOrelha();
-        desenhaCabelo();
+            desenhaBracoDir();
+            desenhaAntebracoDir();
+            desenhaBracoEsq();
+            desenhaAntebracoEsq();
 
-        //rosto
-        boca();
-        olhos();
+            desenhaPescoco();
+            desenhaCabeca();
+            desenhaOrelha();
+            desenhaCabelo();
 
-        //acessorios
-        acessorioPeito();
-        mascara();
-        cinto();
-        braceleteEsq();
-        braceleteDir();
+            //rosto
+            boca();
+            olhos();
 
-        //asas
-        asaEsq();
-        asaDir();
+            //acessorios
+            acessorioPeito();
+            mascara();
+            cinto();
+            braceleteEsq();
+            braceleteDir();
+
+            //asas
+            asaEsq();
+            asaDir();
+        glPopMatrix();
     glPopMatrix();
 }
 
@@ -2626,19 +2634,38 @@ void teclado(unsigned char tecla, int x, int y){
 }
 
 void teclasEspeciais(int tecla, int x, int y){
-    GLfloat deslocamento = 0.5;
+    GLfloat deslocamentoTranslacao = 0.5;
+    GLfloat deslocamentoEscala = 0.25;
+    GLint limiteInferiorEscala = 0;
+    GLint limiteSuperiorEscala = 2;
 	switch (tecla){   //Verifica se alguma tecla é pressionada
 		case GLUT_KEY_RIGHT: // seta direcional direita
-		    dx += deslocamento;
+		    dxTranslate += deslocamentoTranslacao;
 		    break;
         case GLUT_KEY_LEFT: // seta direcional esquerda
-            dx -= deslocamento;
+            dxTranslate -= deslocamentoTranslacao;
 		    break;
         case GLUT_KEY_UP: // seta direcional cima
-		    dy += deslocamento;
+		    dyTranslate += deslocamentoTranslacao;
 		    break;
         case GLUT_KEY_DOWN: // seta direcional baixo
-            dy -= deslocamento;
+            dyTranslate -= deslocamentoTranslacao;
+		    break;
+        case GLUT_KEY_PAGE_UP: // tecla PgUp
+		    dxScale += deslocamentoEscala;
+            dyScale += deslocamentoEscala;
+            if (dxScale > limiteSuperiorEscala){
+                dxScale -= deslocamentoEscala;
+                dyScale -= deslocamentoEscala;
+            }
+		    break;
+        case GLUT_KEY_PAGE_DOWN: // tecla PgDn
+            dxScale -= deslocamentoEscala;
+            dyScale -= deslocamentoEscala;
+            if (dxScale == limiteInferiorEscala){
+                dxScale += deslocamentoEscala;
+                dyScale += deslocamentoEscala;
+            }
 		    break;
     }
     glutPostRedisplay(); 
