@@ -4,6 +4,10 @@
 GLfloat dxTranslate = 0.0, dyTranslate = 0.0;
 GLfloat dxScale = 1.0, dyScale = 1.0;
 GLfloat pontoPivoEscalaX = 13.4876819152305f, pontoPivoEscalaY = 17.0491227834974f;
+GLfloat pontoPivoRotacaoMaoX = 22.6548853565742f, pontoPivoRotacaoMaoY = 20.4322802487351f;
+GLfloat pontoPivoRotacaoAntebracoX = 20.3708017202815f, pontoPivoRotacaoAntebracoY = 20.5155541313083f;
+GLfloat pontoPivoRotacaoBracoX = 16.0371717693159f, pontoPivoRotacaoBracoY = 20.7306905394931f;
+GLint mao = 0, anteBraco = 0, braco = 0;
 
 typedef struct{
     unsigned char R;
@@ -598,7 +602,12 @@ void desenhaAntebracoDir(){
         glVertex2f(22.354237170413974f, 20.01055858582467f);  // E_6
         glVertex2f(22.64711105506651f, 20.127366254714303f);  // A_6
         glVertex2f(22.66244427393229f, 20.679362133882528f);  // Q_4
+    glEnd();
+}
 
+void desenhaMaoDir(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
         glVertex2f(22.66244427393229f, 20.679362133882528f);  // Q_4
         glVertex2f(23.038108136143997f, 21.131692090423158f);  // R_4
         glVertex2f(23.39077217005703f, 20.82502771310748f);  // T_5
@@ -800,7 +809,12 @@ void desenhaAntebracoEsq(){
         glVertex2f(5.181280159333527f, 20.314676328591887f);  // C_3
         glVertex2f(5.399495977783194f, 20.149802154652143f);  // T_2
         glVertex2f(5.172309462461329f, 20.698031641767933f);  // I_3
+    glEnd();
+}
 
+void desenhaMaoEsq(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
         glVertex2f(4.73721790352726f, 20.866351733910307f);  // H_3
         glVertex2f(5.016692773499509f, 21.129947349906857f);  // G_3
         glVertex2f(5.172309462461329f, 20.698031641767933f);  // I_3
@@ -1881,10 +1895,34 @@ void desenhaHeroi(){
             desenhaBarriga();
             desenhaPeito();
 
-            desenhaBracoDir();
-            desenhaAntebracoDir();
+            glPushMatrix();
+                glTranslatef(pontoPivoRotacaoBracoX, pontoPivoRotacaoBracoY, 0.0);
+                glRotatef(braco, 0.0, 0.0, 1.0);
+                glTranslatef(-pontoPivoRotacaoBracoX, -pontoPivoRotacaoBracoY, 0.0);
+                desenhaBracoDir();
+            
+                glPushMatrix();
+                    glTranslatef(pontoPivoRotacaoAntebracoX, pontoPivoRotacaoAntebracoY, 0.0);
+                    glRotatef(anteBraco, 0.0, 0.0, 1.0);
+                    glTranslatef(-pontoPivoRotacaoAntebracoX, -pontoPivoRotacaoAntebracoY, 0.0);
+                    desenhaAntebracoDir();
+                    braceleteDir();
+
+                    glPushMatrix();
+                        glTranslatef(pontoPivoRotacaoMaoX, pontoPivoRotacaoMaoY, 0.0);
+                        glRotatef(mao, 0.0, 0.0, 1.0);
+                        glTranslatef(-pontoPivoRotacaoMaoX, -pontoPivoRotacaoMaoY, 0.0);
+                        desenhaMaoDir();
+                    glPopMatrix();
+                glPopMatrix();
+                
+                asaDir();
+
+            glPopMatrix();
+
             desenhaBracoEsq();
             desenhaAntebracoEsq();
+            desenhaMaoEsq();
 
             desenhaPescoco();
             desenhaCabeca();
@@ -1900,11 +1938,9 @@ void desenhaHeroi(){
             mascara();
             cinto();
             braceleteEsq();
-            braceleteDir();
 
             //asas
             asaEsq();
-            asaDir();
         glPopMatrix();
     glPopMatrix();
 }
@@ -2638,6 +2674,14 @@ void teclasEspeciais(int tecla, int x, int y){
     GLfloat deslocamentoEscala = 0.25;
     GLint limiteInferiorEscala = 0;
     GLint limiteSuperiorEscala = 2;
+    GLint anguloRotacao = 10;
+    GLint limiteInferiorRotacaoMao = -10;
+    GLint limiteSuperiorRotacaoMao = 20;
+    GLint limiteInferiorRotacaoAnteBraco = 0;
+    GLint limiteSuperiorRotacaoAnteBraco = 80;
+    GLint limiteInferiorRotacaoBraco = 0;
+    GLint limiteSuperiorRotacaoBraco = 30;
+
 	switch (tecla){   //Verifica se alguma tecla é pressionada
 		case GLUT_KEY_RIGHT: // seta direcional direita
 		    dxTranslate += deslocamentoTranslacao;
@@ -2667,6 +2711,34 @@ void teclasEspeciais(int tecla, int x, int y){
                 dyScale += deslocamentoEscala;
             }
 		    break;
+        case GLUT_KEY_F1: // tecla F1
+            mao += anguloRotacao;
+            if (mao > limiteSuperiorRotacaoMao){
+                mao -= anguloRotacao;
+                anteBraco += anguloRotacao;
+                if (anteBraco > limiteSuperiorRotacaoAnteBraco){
+                    anteBraco -= anguloRotacao;
+                    braco += anguloRotacao;
+                    if (braco > limiteSuperiorRotacaoBraco){
+                        braco -= anguloRotacao;
+                    }
+                }
+            }
+            break;
+        case GLUT_KEY_F2: // tecla F2
+            mao -= anguloRotacao;
+            if (mao < limiteInferiorRotacaoMao){
+                mao += anguloRotacao;
+                anteBraco -= anguloRotacao;
+                if (anteBraco < limiteInferiorRotacaoAnteBraco){
+                    anteBraco += anguloRotacao;
+                    braco -= anguloRotacao;
+                    if (braco < limiteInferiorRotacaoBraco){
+                        braco += anguloRotacao;
+                    }
+                }
+            }
+            break;
     }
     glutPostRedisplay(); 
 }
