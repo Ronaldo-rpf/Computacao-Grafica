@@ -4,10 +4,15 @@
 GLfloat dxTranslate = 0.0, dyTranslate = 0.0;
 GLfloat dxScale = 1.0, dyScale = 1.0;
 GLfloat pontoPivoEscalaX = 13.4876819152305f, pontoPivoEscalaY = 17.0491227834974f;
-GLfloat pontoPivoRotacaoMaoX = 22.6548853565742f, pontoPivoRotacaoMaoY = 20.4322802487351f;
-GLfloat pontoPivoRotacaoAntebracoX = 20.3708017202815f, pontoPivoRotacaoAntebracoY = 20.5155541313083f;
-GLfloat pontoPivoRotacaoBracoX = 16.0371717693159f, pontoPivoRotacaoBracoY = 20.7306905394931f;
-GLint mao = 0, anteBraco = 0, braco = 0;
+
+GLfloat pontoPivoRotacaoMaoDirX = 22.6548853565742f, pontoPivoRotacaoMaoDirY = 20.4322802487351f;
+GLfloat pontoPivoRotacaoAntebracoDirX = 20.3708017202815f, pontoPivoRotacaoAntebracoDirY = 20.5155541313083f;
+GLfloat pontoPivoRotacaoBracoDirX = 16.0371717693159f, pontoPivoRotacaoBracoDirY = 20.7306905394931f;
+GLint maoDir = 0, anteBracoDir = 0, bracoDir = 0;
+
+GLfloat pontoPivoRotacaoCoxaDirX = 14.5453326105309f, pontoPivoRotacaoCoxaDirY = 15.2503185443344f;
+GLfloat pontoPivoRotacaoCanelaDirX = 15.2057440278442f, pontoPivoRotacaoCanelaDirY = 8.9537059084995f;
+GLint coxaDir = 0, canelaDir = 0;
 
 typedef struct{
     unsigned char R;
@@ -28,7 +33,7 @@ cor asas = {255, 84, 84}; //(asas.R, asas.G, asas.B)
 
 //-----------------------------------------------------------------------------------------------------
 
-void desenhaPernaEsq(){
+void desenhaCanelaEsq(){
     glColor3ub(roupa.R, roupa.G, roupa.B);
     glBegin(GL_TRIANGLES);
         glVertex2f(10.03665007780716f, 4.387201584752024f);  // A
@@ -82,7 +87,12 @@ void desenhaPernaEsq(){
         glVertex2f(11.435971462922744f, 8.734475112301329f);  // G
         glVertex2f(12.832692664460863f, 8.158607864424521f);  // W
         glVertex2f(12.838875698475249f, 9.007470672639036f);  // F
+    glEnd();
+}
 
+void desenhaCoxaEsq(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
         glVertex2f(12.838875698475249f, 9.007470672639036f);  // F
         glVertex2f(11.128427482838674f, 9.078062515411283f);  // R_6
         glVertex2f(11.435971462922744f, 8.734475112301329f);  // G
@@ -161,7 +171,7 @@ void desenhaPernaEsq(){
     glEnd();
 }
 
-void desenhaPernaDir(){
+void desenhaCanelaDir(){
     glColor3ub(roupa.R, roupa.G, roupa.B);
     glBegin(GL_TRIANGLES);
         glVertex2f(16.831374451637558f, 4.416099062918295f);  // N_7
@@ -219,7 +229,12 @@ void desenhaPernaDir(){
         glVertex2f(14.109751488494751f, 8.832716138519121f);  // V_7
         glVertex2f(14.191327282827977f, 7.967860433330677f);  // U_7
         glVertex2f(15.271645606208718f, 8.58053155495892f);  // H_7
+    glEnd();
+}
 
+void desenhaCoxaDir(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
         glVertex2f(14.109751488494751f, 8.832716138519121f);  // V_7
         glVertex2f(15.579822345378483f, 9.01478059651632f);  // G_7
         glVertex2f(15.271645606208718f, 8.58053155495892f);  // H_7
@@ -1880,6 +1895,30 @@ void asaDir(){
 
 
 
+void consertaMaoDir(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
+        glVertex2f(22.5014454758416f, 20.8020278848088f);  // O_4
+        glVertex2f(22.6624442739323f, 20.6793621338825f);  // Q_4
+        glVertex2f(22.6548853565742f, 20.4322802487351f);  // N_11
+
+        glVertex2f(22.64711105506651f, 20.127366254714303f);  // A_6
+        glVertex2f(22.6548853565742f, 20.4322802487351f);  // N_11
+        glVertex2f(22.354237170414f, 20.0105585858247f);  // E_6
+    glEnd();
+}
+
+void consertaCoxaDir(){
+    glColor3ub(roupa.R, roupa.G, roupa.B);
+    glBegin(GL_TRIANGLES);
+        glVertex2f(13.2033920928941, 15.9827879469465); 
+        glVertex2f(13.9376039321708, 13.7801524291164); 
+        glVertex2f(14.5453326105309f, 15.2503185443344f);  
+    glEnd();
+}
+
+
+
 void desenhaHeroi(){
     glPushMatrix();
         glTranslatef(dxTranslate, dyTranslate, 0.0);
@@ -1888,34 +1927,49 @@ void desenhaHeroi(){
             glScalef(dxScale, dyScale, 1.0);
             glTranslatef(-pontoPivoEscalaX, -pontoPivoEscalaY, 0.0);
 
-            //corpo
-            desenhaPernaEsq(); 
-            desenhaPernaDir();
+            desenhaCoxaEsq(); 
+            desenhaCanelaEsq();
+
+            glPushMatrix();
+                glTranslatef(pontoPivoRotacaoCoxaDirX, pontoPivoRotacaoCoxaDirY, 0.0);
+                glRotatef(coxaDir, 0.0, 0.0, 1.0);
+                glTranslatef(-pontoPivoRotacaoCoxaDirX, -pontoPivoRotacaoCoxaDirY, 0.0);
+                desenhaCoxaDir();
+                consertaCoxaDir();
+
+                glPushMatrix();
+                    glTranslatef(pontoPivoRotacaoCanelaDirX, pontoPivoRotacaoCanelaDirY, 0.0);
+                    glRotatef(canelaDir, 0.0, 0.0, 1.0);
+                    glTranslatef(-pontoPivoRotacaoCanelaDirX, -pontoPivoRotacaoCanelaDirY, 0.0);
+                    desenhaCanelaDir();
+                glPopMatrix();
+            glPopMatrix();
 
             desenhaBarriga();
             desenhaPeito();
 
             glPushMatrix();
-                glTranslatef(pontoPivoRotacaoBracoX, pontoPivoRotacaoBracoY, 0.0);
-                glRotatef(braco, 0.0, 0.0, 1.0);
-                glTranslatef(-pontoPivoRotacaoBracoX, -pontoPivoRotacaoBracoY, 0.0);
+                glTranslatef(pontoPivoRotacaoBracoDirX, pontoPivoRotacaoBracoDirY, 0.0);
+                glRotatef(bracoDir, 0.0, 0.0, 1.0);
+                glTranslatef(-pontoPivoRotacaoBracoDirX, -pontoPivoRotacaoBracoDirY, 0.0);
                 desenhaBracoDir();
             
                 glPushMatrix();
-                    glTranslatef(pontoPivoRotacaoAntebracoX, pontoPivoRotacaoAntebracoY, 0.0);
-                    glRotatef(anteBraco, 0.0, 0.0, 1.0);
-                    glTranslatef(-pontoPivoRotacaoAntebracoX, -pontoPivoRotacaoAntebracoY, 0.0);
+                    glTranslatef(pontoPivoRotacaoAntebracoDirX, pontoPivoRotacaoAntebracoDirY, 0.0);
+                    glRotatef(anteBracoDir, 0.0, 0.0, 1.0);
+                    glTranslatef(-pontoPivoRotacaoAntebracoDirX, -pontoPivoRotacaoAntebracoDirY, 0.0);
                     desenhaAntebracoDir();
                     braceleteDir();
 
                     glPushMatrix();
-                        glTranslatef(pontoPivoRotacaoMaoX, pontoPivoRotacaoMaoY, 0.0);
-                        glRotatef(mao, 0.0, 0.0, 1.0);
-                        glTranslatef(-pontoPivoRotacaoMaoX, -pontoPivoRotacaoMaoY, 0.0);
+                        glTranslatef(pontoPivoRotacaoMaoDirX, pontoPivoRotacaoMaoDirY, 0.0);
+                        glRotatef(maoDir, 0.0, 0.0, 1.0);
+                        glTranslatef(-pontoPivoRotacaoMaoDirX, -pontoPivoRotacaoMaoDirY, 0.0);
                         desenhaMaoDir();
+                        consertaMaoDir();
                     glPopMatrix();
                 glPopMatrix();
-                
+
                 asaDir();
 
             glPopMatrix();
@@ -1929,17 +1983,14 @@ void desenhaHeroi(){
             desenhaOrelha();
             desenhaCabelo();
 
-            //rosto
             boca();
             olhos();
 
-            //acessorios
             acessorioPeito();
             mascara();
             cinto();
             braceleteEsq();
 
-            //asas
             asaEsq();
         glPopMatrix();
     glPopMatrix();
@@ -2661,6 +2712,55 @@ void desenhaCenario(){
 
 
 
+int flagVoltaCanela = 1, flagVoltaCoxa = 0, acabou = 0;
+void animaVoltaPerna(){
+    GLint anguloRotacaoCoxa = 4;
+    GLint anguloRotacaoCanela = 7;
+    GLint limiteInferiorRotacaoCoxa = 0;
+    GLint limiteInferiorRotacaoCanela = -50;
+    GLint limiteSuperiorRotacaoCanela = 0;
+   
+    if (flagVoltaCanela){
+        flagVoltaCanela = 0;
+        flagVoltaCoxa = 1;
+        if (canelaDir > limiteInferiorRotacaoCanela){
+            canelaDir -= anguloRotacaoCanela;
+            flagVoltaCanela = 1;
+            flagVoltaCoxa = 0;
+        }
+    }
+
+    if (flagVoltaCoxa){
+        if (coxaDir > limiteInferiorRotacaoCoxa){
+            coxaDir -= anguloRotacaoCoxa;
+            flagVoltaCoxa = 1;
+            acabou = 0;
+        }
+        else{
+            if (canelaDir < limiteSuperiorRotacaoCanela){
+                canelaDir += anguloRotacaoCanela;
+                flagVoltaCoxa = 1;
+                acabou = 0;
+            }
+            else{
+                flagVoltaCoxa = 0;
+                acabou = 1;
+            }
+        }
+    }
+
+    glutPostRedisplay(); 
+
+    if (acabou){
+        return;
+    }
+    else{
+        glutTimerFunc(30, animaVoltaPerna, 0);
+    }
+}
+
+
+
 void teclado(unsigned char tecla, int x, int y){
   switch (tecla) { 
     case 27:       // ESC
@@ -2671,10 +2771,16 @@ void teclado(unsigned char tecla, int x, int y){
 
 void teclasEspeciais(int tecla, int x, int y){
     GLfloat deslocamentoTranslacao = 0.5;
+    GLfloat limiteSuperiorTranslacaoX = 18;
+    GLfloat limiteInferiorTranslacaoX = -13;
+    GLfloat limiteSuperiorTranslacaoY = 15;
+    GLfloat limiteInferiorTranslacaoY = -15;
+    
     GLfloat deslocamentoEscala = 0.25;
     GLint limiteInferiorEscala = 0;
     GLint limiteSuperiorEscala = 2;
-    GLint anguloRotacao = 10;
+
+    GLint anguloRotacaoBraco = 10;
     GLint limiteInferiorRotacaoMao = -10;
     GLint limiteSuperiorRotacaoMao = 20;
     GLint limiteInferiorRotacaoAnteBraco = 0;
@@ -2682,19 +2788,39 @@ void teclasEspeciais(int tecla, int x, int y){
     GLint limiteInferiorRotacaoBraco = 0;
     GLint limiteSuperiorRotacaoBraco = 30;
 
+    GLint anguloRotacaoCoxa = 4;
+    GLint anguloRotacaoCanela = 7;
+    GLint limiteSuperiorRotacaoCoxa = 30;
+    GLint limiteInferiorRotacaoCoxa = 0;
+    GLint limiteSuperiorRotacaoCanela = 5;
+    GLint limiteInferiorRotacaoCanela = -50;
+
 	switch (tecla){   //Verifica se alguma tecla é pressionada
 		case GLUT_KEY_RIGHT: // seta direcional direita
 		    dxTranslate += deslocamentoTranslacao;
+            if (dxTranslate > limiteSuperiorTranslacaoX){
+                dxTranslate -= deslocamentoTranslacao;
+            }
 		    break;
         case GLUT_KEY_LEFT: // seta direcional esquerda
             dxTranslate -= deslocamentoTranslacao;
+            if (dxTranslate < limiteInferiorTranslacaoX){
+                dxTranslate += deslocamentoTranslacao;
+            }
 		    break;
         case GLUT_KEY_UP: // seta direcional cima
 		    dyTranslate += deslocamentoTranslacao;
+            if (dyTranslate > limiteSuperiorTranslacaoY){
+                dyTranslate -= deslocamentoTranslacao;
+            }
 		    break;
         case GLUT_KEY_DOWN: // seta direcional baixo
             dyTranslate -= deslocamentoTranslacao;
+            if (dyTranslate < limiteInferiorTranslacaoY){
+                dyTranslate += deslocamentoTranslacao;
+            }
 		    break;
+
         case GLUT_KEY_PAGE_UP: // tecla PgUp
 		    dxScale += deslocamentoEscala;
             dyScale += deslocamentoEscala;
@@ -2712,34 +2838,55 @@ void teclasEspeciais(int tecla, int x, int y){
             }
 		    break;
         case GLUT_KEY_F1: // tecla F1
-            mao += anguloRotacao;
-            if (mao > limiteSuperiorRotacaoMao){
-                mao -= anguloRotacao;
-                anteBraco += anguloRotacao;
-                if (anteBraco > limiteSuperiorRotacaoAnteBraco){
-                    anteBraco -= anguloRotacao;
-                    braco += anguloRotacao;
-                    if (braco > limiteSuperiorRotacaoBraco){
-                        braco -= anguloRotacao;
+            maoDir += anguloRotacaoBraco;
+            if (maoDir > limiteSuperiorRotacaoMao){
+                maoDir -= anguloRotacaoBraco;
+                anteBracoDir += anguloRotacaoBraco;
+                if (anteBracoDir > limiteSuperiorRotacaoAnteBraco){
+                    anteBracoDir -= anguloRotacaoBraco;
+                    bracoDir += anguloRotacaoBraco;
+                    if (bracoDir > limiteSuperiorRotacaoBraco){
+                        bracoDir -= anguloRotacaoBraco;
                     }
                 }
             }
             break;
         case GLUT_KEY_F2: // tecla F2
-            mao -= anguloRotacao;
-            if (mao < limiteInferiorRotacaoMao){
-                mao += anguloRotacao;
-                anteBraco -= anguloRotacao;
-                if (anteBraco < limiteInferiorRotacaoAnteBraco){
-                    anteBraco += anguloRotacao;
-                    braco -= anguloRotacao;
-                    if (braco < limiteInferiorRotacaoBraco){
-                        braco += anguloRotacao;
+            maoDir -= anguloRotacaoBraco;
+            if (maoDir < limiteInferiorRotacaoMao){
+                maoDir += anguloRotacaoBraco;
+                anteBracoDir -= anguloRotacaoBraco;
+                if (anteBracoDir < limiteInferiorRotacaoAnteBraco){
+                    anteBracoDir += anguloRotacaoBraco;
+                    bracoDir -= anguloRotacaoBraco;
+                    if (bracoDir < limiteInferiorRotacaoBraco){
+                        bracoDir += anguloRotacaoBraco;
                     }
                 }
             }
             break;
-    }
+        case GLUT_KEY_F3: // tecla F3
+            coxaDir += anguloRotacaoCoxa;
+            if (coxaDir > limiteSuperiorRotacaoCoxa){
+                coxaDir -= anguloRotacaoCoxa;
+                canelaDir += anguloRotacaoCanela;
+                if (canelaDir > limiteSuperiorRotacaoCanela){
+                    canelaDir -= anguloRotacaoCanela;
+                }
+            }
+            else{
+                canelaDir -= anguloRotacaoCanela;
+            }
+            break;
+        case GLUT_KEY_F4: // tecla F4
+            if (coxaDir > (limiteInferiorRotacaoCoxa + anguloRotacaoCoxa)){
+                flagVoltaCanela = 1;
+                flagVoltaCoxa = 0;
+                acabou = 0;
+                glutTimerFunc(30, animaVoltaPerna, 0);
+            }
+            break;
+        }
     glutPostRedisplay(); 
 }
 
