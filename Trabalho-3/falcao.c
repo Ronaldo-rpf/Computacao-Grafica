@@ -3039,12 +3039,13 @@ void animaVoltaPernaEsq(){
     }
 }
 
-int faseAnimacao = 0;
+int faseAnimacao = 0, voo = 0;
 void levantaHeroi(){
     rotacao += 5;
     if (rotacao > 0){
         rotacao = 0;
         faseAnimacao = 0;
+        voo = 0;
         anteBracoDir = 0;
         anteBracoEsq = 0;
         bracoDir = 0;
@@ -3172,6 +3173,28 @@ void animaPerna(){
     }  
 }
 
+GLfloat anguloVoo = 0.0;
+GLfloat amplitudeVoo = 2.0; 
+GLfloat velocidadeVoo = 0.1;
+void animaVoo(){
+    anguloVoo += velocidadeVoo;
+    
+    dyTranslate = (amplitudeVoo * sin(anguloVoo));
+
+    if (anguloVoo > 2 * 3.14){ 
+        anguloVoo -= 2 * 3.14;
+    }
+    
+    glutPostRedisplay(); 
+
+    if (faseAnimacao == 2){
+        return;
+    }
+    else{
+        glutTimerFunc(30, animaVoo, 0);
+    }
+}
+
 void deitaHeroi(){
     rotacao -= 5;
     if (rotacao < -50){
@@ -3181,6 +3204,9 @@ void deitaHeroi(){
         flagVoltaAntebraco = 0;
         glutTimerFunc(30, animaBraco, 0);
         glutTimerFunc(30, animaPerna, 0);
+        if (voo){
+            glutTimerFunc(30, animaVoo, 0);
+        }
         return;
     }
 
@@ -3366,6 +3392,18 @@ void teclasEspeciais(int tecla, int x, int y){
             }
             break;
         case GLUT_KEY_F9: // tecla F9
+            voo = 1;
+            if (faseAnimacao == 0){
+                anteBracoDir = 0;
+                anteBracoEsq = 0;
+                bracoDir = 0;
+                bracoEsq = 0;
+                maoEsq = 0;
+                maoDir = 0;
+                glutTimerFunc(30, deitaHeroi, 0);
+            }
+            break;
+        case GLUT_KEY_F10: // tecla F10
             if (faseAnimacao == 0){
                 anteBracoDir = 0;
                 anteBracoEsq = 0;
