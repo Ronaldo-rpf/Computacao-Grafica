@@ -1,7 +1,7 @@
 #include <GL/glut.h>
 #include <math.h>
 
-GLfloat dxTranslate = 0.0, dyTranslate = 0.0;
+GLfloat dxTranslate = 0.0, dyTranslate = 0.0, dxTranslateCenario = 0.0;
 GLfloat dxScale = 1.0, dyScale = 1.0;
 GLfloat pontoPivoEscalaX = 13.4876819152305f, pontoPivoEscalaY = 17.0491227834974f;
 GLfloat pontoPivoRotacaoX = 13.4876819152305f, pontoPivoRotacaoY = 17.0491227834974f;
@@ -2738,12 +2738,175 @@ void desenhaPredios(){
     glEnd();
 }
 
+void desenhaPredioPrincipal(){
+    glColor3ub(0, 0, 0);
+    glBegin(GL_TRIANGLES);
+        glVertex2f(2.0373278577843106f, 10.420224080796318f); // C
+        glVertex2f(3.78122088151325f, 13.094193383847347f); // E
+        glVertex2f(2.0373278577843106f, 13.094193383847347f); // F
+
+        glVertex2f(2.0373278577843106f, 10.420224080796318f); // C
+        glVertex2f(3.78122088151325f, 13.094193383847347f); // E
+        glVertex2f(3.7715325869369782f, 10.439600669948861f); // D
+
+        glVertex2f(2.5604957649029925f, 13.11356997299989f); // J
+        glVertex2f(3.2774295635471122f, 13.094193383847347f); // I
+        glVertex2f(2.5723512478651207f, 13.556040497384446f); // G
+
+        glVertex2f(2.5723512478651207f, 13.556040497384446f); // G
+        glVertex2f(3.2774295635471122f, 13.094193383847347f); // I
+        glVertex2f(3.2677412689708403f, 13.568919818084668f); // H
+
+        glVertex2f(2.0373278577843106f, 10.420224080796318f); // C
+        glVertex2f(3.7715325869369782f, 10.439600669948861f); // D
+        glVertex2f(2.0373278577843106f, 0.0f);
+
+        glVertex2f(2.0373278577843106f, 10.420224080796318f); // C
+        glVertex2f(3.7715325869369782f, 10.439600669948861f); // D
+        glVertex2f(3.7715325869369782f, 0.0f);
+
+        glVertex2f(3.7715325869369782f, 0.0f);
+        glVertex2f(2.0373278577843106f, 0.0f);
+        glVertex2f(2.0373278577843106f, 10.420224080796318f); // C
+
+        glColor3ub(220, 220, 220);
+        glVertex2f(2.1882097813254653f, 12.29452782689491f); // D_2
+        glVertex2f(2.445796537332457f, 12.28702530002092f); // C_2
+        glVertex2f(2.1882097813254653f, 12.061949493801219f); // E_2
+
+        glVertex2f(2.2f, 11.8f); // U_1
+        glVertex2f(2.468304117954426f, 11.799361053211557f); // V_1
+        glVertex2f(2.188209781325465f, 11.526769243456588f); // T_1
+
+        glVertex2f(2.7959144581186584f, 12.30453119606023f); // B_2
+        glVertex2f(3.0560020564169794f, 12.292026984603579f); // A_2
+        glVertex2f(2.7984153004099883f, 12.061949493801219f); // W_1
+
+        glVertex2f(2.7930758625610363f, 11.800414742645469f); // Q_1
+        glVertex2f(3.0614709981852206f, 11.795350683482749f); // P_1
+        glVertex2f(2.7930758625610363f, 11.547211784509447f); // R_1
+
+        glVertex2f(3.321091339297959f, 12.302030353768918f); // J_2
+        glVertex2f(3.6336966257142107f, 12.302030353768918f); // I_2
+        glVertex2f(3.318590497006629f, 12.059448651509907f); // G_2
+
+        glVertex2f(2.236029354661786f, 11.268688530559823f); // B_1
+        glVertex2f(2.4998934233501258f, 11.26373841272825f); // A_1
+        glVertex2f(2.2298233501578717f, 11.013429564403722f); // W
+
+        glVertex2f(3.348600604502589f, 12.83470976182221f); // N_2
+        glVertex2f(3.6111890450922406f, 12.829708077239552f); // M_2
+        glVertex2f(3.346099762211259f, 12.58712637498054f); // K_2
+
+        glVertex2f(2.7534001391660468f, 12.814703023491571f); // Q_2
+        glVertex2f(3.043497844960328f, 12.812202181200242f); // P_2
+        glVertex2f(2.750899296874717f, 12.584625532689211f); // R_2
+
+        glColor3ub(248, 124, 31);
+        glVertex2f(2.855595470969192f, 13.872220095268057f); // M
+        glVertex2f(2.934640370440096f, 13.87222009526806f); // N
+        glVertex2f(2.92932f, 13.5906f); // L
+
+        glVertex2f(2.8424213210573748f, 13.58238879720808f); // K
+        glVertex2f(2.855595470969192f, 13.872220095268057f); // M
+        glVertex2f(2.92932f, 13.5906f); // L
+
+        glColor3ub(38, 124, 31);
+        glVertex2f(2.697505672027385f, 10.848752690506007f); // R
+        glVertex2f(2.9148791455723697f, 10.848752690506007f); // U
+        glVertex2f(2.690918597071476f, 10.41400574341604f); // O
+
+        glVertex2f(2.690918597071476f, 10.41400574341604f); // O
+        glVertex2f(2.9148791455723697f, 10.848752690506007f); // U
+        glVertex2f(2.9214662205282784f, 10.41400574341604f); // S
+
+        glVertex2f(2.9939240450432734f, 10.848752690506007f); // V
+        glVertex2f(3.184949218764624f, 10.861926840417825f); // Q
+        glVertex2f(3.007098194955091f, 10.41400574341604f); // T
+
+        glVertex2f(3.198123368676441f, 10.427179893327857f); // P
+        glVertex2f(3.184949218764624f, 10.861926840417825f); // Q
+        glVertex2f(3.007098194955091f, 10.41400574341604f); // T
+
+        glVertex2f(2.9148791455723697f, 10.848752690506007f); // U
+        glVertex2f(2.9939240450432734f, 10.848752690506007f); // V
+        glVertex2f(2.9214662205282784f, 10.41400574341604f); // S
+
+        glVertex2f(2.9214662205282784f, 10.41400574341604f); // S
+        glVertex2f(3.007098194955091f, 10.41400574341604f); // T
+        glVertex2f(2.9939240450432734f, 10.848752690506007f); // V
+    glEnd();
+
+    glColor3ub(220, 220, 220);
+    glBegin(GL_QUADS);
+        glVertex2f(2.158199673829504f, 12.832208919530881f); // U_2
+        glVertex2f(2.4507982219151154f, 12.837210604113542f); // T_2
+        glVertex2f(2.4507982219151154f, 12.58712637498054f); // S_2
+        glVertex2f(2.163201358412164f, 12.58962721727187f); // V_2
+
+        glVertex2f(2.7534001391660468f, 12.814703023491571f); // Q_2
+        glVertex2f(2.750899296874717f, 12.584625532689211f); // R_2
+        glVertex2f(3.043497844960328f, 12.812202181200242f); // P_2
+        glVertex2f(3.0459986872516582f, 12.58712637498054f); // O_2
+
+        glVertex2f(3.348600604502589f, 12.83470976182221f); // N_2
+        glVertex2f(3.6111890450922406f, 12.829708077239552f); // M_2
+        glVertex2f(3.346099762211259f, 12.58712637498054f); // K_2
+        glVertex2f(3.6f, 12.6f); // L_2
+
+        glVertex2f(3.6336966257142107f, 12.302030353768918f); // I_2
+        glVertex2f(3.6286949411315503f, 12.059448651509907f); // H_2
+        glVertex2f(3.318590497006629f, 12.059448651509907f); // G_2
+        glVertex2f(3.321091339297959f, 12.302030353768918f); // J_2
+
+        glVertex2f(2.7959144581186584f, 12.30453119606023f); // B_2
+        glVertex2f(3.0560020564169794f, 12.292026984603579f); // A_2
+        glVertex2f(2.7984153004099883f, 12.061949493801219f); // W_1
+        glVertex2f(3.0510003718343195f, 12.064450336092548f); // Z_1
+
+        glVertex2f(2.1882097813254653f, 12.29452782689491f); // D_2
+        glVertex2f(2.445796537332457f, 12.28702530002092f); // C_2
+        glVertex2f(2.1882097813254653f, 12.061949493801219f); // E_2
+        glVertex2f(2.4507982219151168f, 12.056947809218558f); // F_2
+
+        glVertex2f(2.2f, 11.8f); // U_1
+        glVertex2f(2.468304117954426f, 11.799361053211557f); // V_1
+        glVertex2f(2.188209781325465f, 11.526769243456588f); // T_1
+        glVertex2f(2.465803275663096f, 11.536772612621908f); // S_1
+
+        glVertex2f(2.7930758625610363f, 11.800414742645469f); // Q_1
+        glVertex2f(3.0614709981852206f, 11.795350683482749f); // P_1
+        glVertex2f(2.7930758625610363f, 11.547211784509447f); // R_1
+        glVertex2f(3.0817272348361024f, 11.537083666184005f); // O_1
+
+        glVertex2f(3.3248020746466844f, 11.754838210180985f); // N_1
+        glVertex2f(3.6337096835726324f, 11.754838210180985f); // M_1
+        glVertex2f(3.628645624409912f, 11.537083666184005f); // L_1
+        glVertex2f(3.3349301929721253f, 11.537083666184005f); // K_1
+
+        glVertex2f(3.3248020746466844f, 11.339585358837908f); // J_1
+        glVertex2f(3.628645624409912f, 11.324393181349746f); // I_1
+        glVertex2f(3.638773742735353f, 11.071190223213724f); // H_1
+        glVertex2f(3.319738015483964f, 11.066126164051004f); // G_1
+
+        glVertex2f(3.096919412324264f, 11.294008826373425f); // E_1
+        glVertex2f(2.8032039808864773f, 11.294008826373425f); // F_1
+        glVertex2f(2.798139921723757f, 11.045869927400123f); // C_1
+        glVertex2f(3.086791293998823f, 11.03574180907468f); // D_1
+
+        glVertex2f(2.236029354661786f, 11.268688530559823f); // B_1
+        glVertex2f(2.4998934233501258f, 11.26373841272825f); // A_1
+        glVertex2f(2.2298233501578717f, 11.013429564403722f); // W
+        glVertex2f(2.5f, 11.0f); // Z
+    glEnd();
+}
+
 void desenhaSol(){
-    glColor3ub(255,255,0);
+    glColor3ub(238, 128, 1);
     glBegin(GL_POLYGON);
         float centroX, centroY, raio;
-        centroX = 18.39071f;
-        centroY = 8.53345f;
+        centroX = 20.39071f; 
+        centroY = 15.53345f;
         raio = 2.8;
         for (int i = 0; i < 360; i += 10) {
             float ang = i * 3.14159 / 180.0; // Transformacao pra radiano
@@ -2753,10 +2916,31 @@ void desenhaSol(){
 }
 
 void desenhaCenario(){
-    desenhaSol();
     glPushMatrix();
-        glScalef(1.13, 1.0, 1.0);
-        desenhaPredios();
+        glTranslatef(dxTranslateCenario, 0.0, 0.0); // translacao do cenario inteiro
+        desenhaSol();
+        glPushMatrix();
+            glScalef(1.13, 1.0, 1.0);
+            desenhaPredios();
+            glPushMatrix();
+            glTranslatef(18.0, 0.0, 0.0);
+                desenhaPredioPrincipal();
+            glPopMatrix();
+        glPopMatrix();
+
+        // Duplicacao do cenario para a animacao
+        glPushMatrix();
+            glTranslatef(30.5, 0.0, 0.0); // duplicacao
+            desenhaSol();
+            glPushMatrix();
+                glScalef(1.13, 1.0, 1.0);
+                desenhaPredios();
+                glPushMatrix();
+                glTranslatef(18.0, 0.0, 0.0);
+                    desenhaPredioPrincipal();
+                glPopMatrix();
+            glPopMatrix();
+        glPopMatrix();
     glPopMatrix();
 }
 
@@ -2867,6 +3051,10 @@ void levantaHeroi(){
         bracoEsq = 0;
         maoEsq = 0;
         maoDir = 0;
+        coxaEsq = 0;
+        canelaEsq = 0;
+        coxaDir = 0;
+        canelaDir = 0;
         glutPostRedisplay();
         return;
     }
@@ -2876,8 +3064,9 @@ void levantaHeroi(){
     glutTimerFunc(30, levantaHeroi, 0);
 }
 
-int flagVoltaBraco = 0, flagVoltaAntebraco = 0;
+int flagVoltaBraco = 1, flagVoltaAntebraco = 1;
 void animaBraco(){
+    dxTranslateCenario -= 0.1;
     cont++;
     GLint anguloRotacaoBraco = 10;
     GLint limiteInferiorRotacaoAnteBraco = 0;
@@ -2924,14 +3113,63 @@ void animaBraco(){
 
     glutPostRedisplay(); 
 
-    if (cont < 100){
+    if (cont < 305){
         glutTimerFunc(30, animaBraco, 0);
     }
     else{
         faseAnimacao = 2;
+        dxTranslateCenario = 0;
         glutTimerFunc(30, levantaHeroi, 0);
         return;
     }
+}
+
+int flagQualPerna = 1;
+void animaPerna(){
+    GLint anguloRotacaoCoxa = 1;
+    GLint anguloRotacaoCanela = 1;
+    GLint limiteSuperiorRotacaoCoxa = 20;
+    GLint limiteInferiorRotacaoCoxa = 0; 
+    GLint limiteSuperiorRotacaoCanela = 5;
+
+    if (flagQualPerna){
+        coxaEsq -= anguloRotacaoCoxa;
+        if (coxaEsq < -limiteSuperiorRotacaoCoxa){
+            coxaEsq += anguloRotacaoCoxa;
+            flagVoltaCanela = 1;
+            flagVoltaCoxa = 0;
+            acabou = 0;
+            glutTimerFunc(30, animaVoltaPernaEsq, 0);
+            flagQualPerna = 0;
+        }
+        else{
+            canelaEsq += anguloRotacaoCanela;
+        }
+    }
+    
+    else{
+        coxaDir += anguloRotacaoCoxa;
+        if (coxaDir > limiteSuperiorRotacaoCoxa){
+            coxaDir -= anguloRotacaoCoxa;
+            flagVoltaCanela = 1;
+            flagVoltaCoxa = 0;
+            acabou = 0;
+            glutTimerFunc(30, animaVoltaPernaDir, 0);
+            flagQualPerna = 1;
+        }
+        else{
+            canelaDir -= anguloRotacaoCanela;
+        }
+    }
+
+    glutPostRedisplay(); 
+
+    if (faseAnimacao == 2){
+        return;
+    }
+    else{
+        glutTimerFunc(30, animaPerna, 0);
+    }  
 }
 
 void deitaHeroi(){
@@ -2942,16 +3180,13 @@ void deitaHeroi(){
         flagVoltaBraco = 0;
         flagVoltaAntebraco = 0;
         glutTimerFunc(30, animaBraco, 0);
+        glutTimerFunc(30, animaPerna, 0);
         return;
     }
 
     glutPostRedisplay(); 
 
     glutTimerFunc(30, deitaHeroi, 0);
-}
-
-void animaPerna(){
-
 }
 
 
